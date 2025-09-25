@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Game Frame</title>
+  <link rel="icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico" />
+  <title>Dashboard</title>
   <style>
-    body, html {
+       body, html {
       margin: 0;
       padding: 0;
       height: 100%;
       width: 100%;
+      background: #0b0b0f;
     }
 
     iframe {
@@ -19,21 +21,25 @@
 
     .back-button {
       position: absolute;
-      top: 10px;
-      left: 10px;
-      padding: 6px 10px;
-      font-size: 14px;
-      font-family: sans-serif;
-      background: #f0f0f0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
+      top: 8px;
+      left: 8px;
+      padding: 4px 8px;
+      font-size: 12px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background: #1a1a2e;
+      border: 1px solid #00f7ff;
+      border-radius: 6px;
       cursor: pointer;
       z-index: 1000;
-      transition: background 0.2s;
+      box-shadow: 0 0 8px #00f7ff, 0 0 15px #007bff inset;
+      transition: all 0.2s ease-in-out;
     }
 
     .back-button:hover {
-      background: #e0e0e0;
+      background: #111122;
+      box-shadow: 0 0 12px #00f7ff, 0 0 20px #007bff inset;
+      transform: scale(1.05);
     }
   </style>
 </head>
